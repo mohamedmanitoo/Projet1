@@ -83,8 +83,9 @@ namespace WebApplication1.Controllers
                 }
             }
 
-            // If we got this far, something failed, redisplay form
+            
             return View(model);
+            // If we got this far, something failed, redisplay form
         }
 
         [HttpGet]
